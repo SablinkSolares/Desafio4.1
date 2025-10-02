@@ -1,0 +1,33 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0;
+}
+
+#grafico3D {
+  min-height: 400px;
+}
+
+#resultado {
+  transition: all 0.3s ease;
+}
+
+.list-group-item {
+  border: none;
+  padding: 10px 0;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  #grafico3D {
+    height: 300px;
+  }
+}
